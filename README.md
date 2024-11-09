@@ -2,6 +2,54 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Movie List App
+
+A React-based Movie List application where users can view a list of movies, filter them by title and rating, view detailed movie descriptions, and add new movies. 
+
+## Features
+
+- **Movie List**: View a list of movies with titles and ratings.
+- **Filter**: Filter movies by title and rating (available only on the home page).
+- **Add Movie**: Add new movies with title, rating, description, and trailer URL.
+- **Movie Details**: View detailed information about a selected movie, including a description and embedded trailer.
+
+## Technologies Used
+
+- **React**: Frontend library for building user interfaces.
+- **React Router**: For routing between different pages (home, movie details).
+- **Tailwind CSS**: For styling the application with custom colors and themes.
+
+## Customization
+- You can add or change movie data in the Movies.js file in the Components folder.
+
+
+## Custom Colors
+
+This project uses a custom color palette defined in `tailwind.config.js`:
+
+- `darkPurple`: `#141124`
+- `lightPurple`: `#2F2B43`
+- `palePurple`: `#393351`
+- `purplle`: `#524A7B`
+- `darkRose`: `#A868A0`
+- `paleRose`: `#D4CEE3`, with opacity variants for different transparency levels
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) installed
+- [npm](https://www.npmjs.com/) (comes with Node.js) or [Yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/movie-list-app.git
+   cd movie-list-app
+   ```
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -68,3 +116,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+

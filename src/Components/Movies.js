@@ -1,0 +1,68 @@
+const Movies=[
+    {
+      title: "Deadpool&Wolverine",
+      description: "A cyberpunk action classic",
+      longDescription:"When two fan-favorite antiheroes collide, chaos and dark humor ensue. Deadpool, the wise-cracking, unpredictable mercenary with a healing factor, finds himself on a collision course with the stoic and lethal Wolverine. In a journey that tests the limits of survival and friendship, Deadpool’s relentless sarcasm meets Wolverine's unyielding grit as they face threats that only the two of them could handle—and barely tolerate. Together, they redefine what it means to be a hero in the most unconventional way.",
+      posterURL: "https://cdn.marvel.com/content/1x/deadpoolandwolverine_lob_crd_03.jpg",
+      rating: 5,
+      trailerURL: "https://www.youtube.com/embed/AAWJ21wLN4A?si=EoI7vhNHYSwE-MCu",
+    },
+    {
+      title: "JOKER",
+      description: "A mind-bending thriller",
+      longDescription:"In the shadows of Gotham, one man's descent into madness becomes a twisted journey of self-discovery. Arthur Fleck, a struggling comedian marginalized by society, spirals deeper into despair and delusion until he becomes the infamous Joker. This gritty origin story peels back the layers of a complex character, exploring themes of mental health, isolation, and the unsettling nature of human resilience. With chilling realism, Joker reveals the fragile boundary between victim and villain in a city that turns its back on the downtrodden.",
+      posterURL: "https://cdn11.bigcommerce.com/s-ydriczk/images/stencil/1500x1500/products/89058/93685/Joker-2019-Final-Style-steps-Poster-buy-original-movie-posters-at-starstills__62518.1669120603.jpg?c=2",
+      rating: 4,
+      trailerURL: "https://www.youtube.com/embed/riDn3KxvE50?si=UAdXa1wlTxf0cy1e",
+    },
+    {
+      title: "SHREK",
+      description: "A funny movie",
+      longDescription:"An unlikely hero, a feisty princess, and a talking donkey embark on an adventure full of heart and humor. Shrek, a reclusive ogre, just wants to live in peace in his swamp. But when fairy-tale creatures invade his home, Shrek sets off on a mission to reclaim his solitude. With his new (and annoying) friend Donkey by his side, he discovers love, friendship, and acceptance, reminding us all that true beauty lies within. Shrek’s journey is a heartwarming tale of self-acceptance and breaking stereotypes with a touch of laugh-out-loud comedy.",
+      posterURL: "https://images.squarespace-cdn.com/content/v1/5acd17597c93273e08da4786/1547848016060-286BK7E4Y0THATD46Z7A/SHREK+Close.png",
+      rating: 4,
+      trailerURL:"https://www.youtube.com/embed/CwXOrWvPBPk?si=m8wyFI4Kx7lM8iDQ",
+    },
+    {
+      title: "The Super Mario Bros",
+      description: "A kids movie",
+      longDescription:"Two plumber brothers from Brooklyn get swept into a magical kingdom, where mushrooms, koopas, and adventure await. When Princess Peach is captured by the menacing Bowser, Mario and Luigi must brave perilous landscapes, mysterious power-ups, and wild enemies to save her. This journey through the Mushroom Kingdom brings the beloved Nintendo game to life in a colorful, action-packed adventure that celebrates bravery, brotherhood, and the power of teamwork. It's a nostalgic thrill ride that blends fantasy with family fun.",
+      posterURL: "https://cdn11.bigcommerce.com/s-ydriczk/images/stencil/1500x1500/products/90380/99064/super-mario-bros-2023-advance-style-B-original-movie-poster-us-one-sheet-buy-now-at-starstills__89412.1703695191.jpg?c=2&imbypass=on",
+      rating: 3,
+      trailerURL:"https://www.youtube.com/embed/TnGl01FkMMo?si=lH0NVRCPKCnxOwhf",
+    },
+    {
+      title: "TITANIC",
+      description: "A Deeply Emotional Movie",
+      longDescription:"Rose and Jack, two people from very different worlds, meet aboard the ill-fated RMS Titanic. Their love blossoms amid luxury and opulence but is tested as the ship strikes an iceberg and disaster unfolds. This epic romance transcends class and time, capturing the fleeting beauty of love and the haunting tragedy of one of history’s greatest maritime disasters.",
+      posterURL: "https://www.movieposters.com/cdn/shop/products/c104f1bfed20481f35bc96cb9addc940_240x360_crop_center.progressive.jpg?v=1573588574",
+      rating: 3,
+      trailerURL:"https://www.youtube.com/embed/CHekzSiZjrY?si=KhubggwQEOJ0nR-f",
+    },
+    {
+      title: "INTERSTELLAR",
+      description: "A sci-fi movie",
+      longDescription:"Facing environmental collapse on Earth, a group of astronauts led by Cooper embarks on a daring mission to find a new habitable world. Traversing through wormholes and navigating the mysteries of time and gravity, the crew’s journey forces them to confront their own humanity and the sacrifices required to ensure the survival of the species.",
+      posterURL: "https://images-cdn.ubuy.co.id/6352289f38bb253c44612d53-interstellar-movie-poster-24-x-36-inches.jpg",
+      rating: 5,
+      trailerURL:"https://www.youtube.com/embed/VaOijhK3CRU?si=H5fqmJLGpsJTDzpc",
+    },
+    {
+      title: "GLADIOTOR",
+      description: "A action thriller movie",
+      longDescription:"After betrayal and the murder of his family by the ambitious Emperor Commodus, Roman general Maximus is left for dead. Forced into slavery as a gladiator, he rises through the ranks in the bloody arenas of Rome, driven by vengeance. Maximus becomes a symbol of defiance and courage as he battles to honor his family and restore justice to the Empire.",
+      posterURL: "https://rukminim2.flixcart.com/image/850/1000/kyvvtzk0/poster/d/x/8/medium-gladiator-matte-finish-poster-urbanprint6311-original-imagbygdgnhbdj8z.jpeg?q=90&crop=false",
+      rating: 4,
+      trailerURL:"https://www.youtube.com/embed/APv2lidaDmo?si=Cv_CSg9yGSNnq8c1",
+    },
+    {
+      title: "STAR WARS: LE CLONE WARS",
+      description: "A sci-fi movie",
+      longDescription:"In a galaxy torn by war, the Jedi and the Republic fight for peace against the relentless Separatists. Following the legendary battles and epic confrontations of the Clone Wars, this saga delves into the conflict that shapes the fates of heroes and villains alike. With Anakin Skywalker, Obi-Wan Kenobi, and a young Ahsoka Tano at the forefront, each battle brings them closer to the galaxy’s dark fate. Packed with thrilling action, political intrigue, and personal sacrifice, The Clone Wars bridges the story between light and darkness in a galaxy far, far away.",
+      posterURL: "https://img.fruugo.com/product/7/69/50038697_max.jpg",
+      rating: 3,
+      trailerURL:"https://www.youtube.com/embed/ZLW2jkd6E7g?si=1pRgltkr7MK58AOZ",
+    },
+  ];
+
+  export default Movies;
